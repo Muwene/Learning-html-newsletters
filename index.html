@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Newsletter - January 2020</title>
+
+	<!-- This section styles the email template layout -->
+	<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Quicksand:400,500,700');
+		* {
+			margin: 0;
+			border: 0;
+			padding: 0;
+		}
+
+		/* Styling the body of the Newsletter template */
+		body {
+			background-color: #F1F4F4; /* The grey color*/
+			font-family: 'Quicksand', sans-serif;
+			font-size: 18px;
+			max-width: 800px;
+			margin: 0 auto;
+			padding: 2%;
+			color: #565859
+		}
+
+		/* Styling the wrapper */
+		#wrapper{
+			margin: 0 auto;
+			background: #FFF;
+		}
+
+		/* Styling the heading*/
+		h2 {
+			letter-spacing: 1%;
+			padding-left: 2%;
+			font-weight: 700;
+		}
+
+		/* Styling the paragraph */
+		p {
+			padding: 2%;
+			text-align: justify;
+		}
+
+		/* Making the banner fit in the allocated width of the body. */
+		img {
+			max-width: 100%; 
+		}
+
+		/* Styling the line below the learn more button */
+		.line {
+			clear: both;
+			margin: 4% auto;
+			width: 90%;
+			height: 2px;
+			background-color: #E3E9E9
+		}
+
+		/* Styling the header */
+		header {
+			width: 98%;
+		}
+
+		#logo {
+			float: left;
+			margin: 2% 0 0 5%;
+			max-width: 110px;
+		}
+
+		#shoutout {
+			float: right;
+			margin: 3% 3% 2% 0;
+			height: auto;
+			overflow: hidden;
+		}
+
+		.social {
+			float: right;
+			list-style-type: none;
+			margin-top: 4%;
+			padding: 0;
+		}
+
+		.social li {
+			display: inline;
+		}
+
+		/* Creating a separation between the banner image and text */
+		.banner {
+			margin-bottom: 3%;
+		}
+
+		/* Styling the Learn more button */
+		.btn {
+			float: right;
+			border-radius: 8px;
+			color: #FFF;
+			font-size: 17px;
+			background-color: #18A0D3;
+			padding: 8px;
+			text-decoration: none;
+		}
+
+		/* Positioning the button */
+		.button-holder{
+			float: right;
+			margin: 0 2% 4% 0;
+		}
+
+		/* Adding a lighter blue effect when you hover over the "learn more" button */
+		.btn:hover {
+			background: #4EC0EB;
+			text-decoration: none;
+		}
+
+		/* Styling the contact section*/
+		.contact {
+			text-align: center;
+			margin-bottom: 4%;
+		}
+
+	</style>
+</head>
+
+<body>
+	<!-- This piece of  code creates the wrapper of our template (The white end and grey begin). Everything will be inside this wrapper -->
+	<div id="wrapper">
+
+		<!-- This will contain the logo on the left, and the social media links on the right -->
+		<header>
+			<div id="logo">
+				<img src="http://una.or.tz/wp-content/uploads/2013/12/youtube-watermark.png">
+			</div>
+
+			<!-- This section contains all our social media platforms in an unordered list. Images are being used here, we will shift to font awesome icons sometime soon -->
+			<div id="shoutout">
+				<ul class="social">
+
+					<!-- Facebook -->
+					<li><a href="https://www.facebook.com/TanzaniaUNA/?ref=aymt_homepage_panel&eid=ARBxvTJ_s-5AFgBj06GyxmN8N_wBuS2kop2n93xbVGWcUutKf9PcdWpguJHC1vglPdDZL05fOwJhNKa1" target="_blank"><img src="https://cdn0.iconfinder.com/data/icons/social-media-2119/154/facebook-512.png" style="width: 30px; height: 30px"></a>
+
+					<!-- Instagram -->
+					<li></li><a href="https://www.instagram.com/una_tz/?hl=en" target="_blank"><img src="https://i.pinimg.com/originals/66/41/c9/6641c94e15a0be37af49a4250386c03e.png" style="width: 30px; height: 30px"></a>
+
+					<!-- Twitter -->
+					<li><a href="https://twitter.com/UNATanzania" target="_blank"><img src="https://www.pngitem.com/pimgs/m/111-1115845_twitter-icon-logo-social-media-icon-png-and.png" style="width: 30px; height: 30px"></a></li>
+				</ul>
+			</div>
+		</header>
+
+		<!-- This is the banner section after the header -->
+		<div class="banner">
+			<img src="https://ontario.coop/sites/default/files/SGD%20banner%20image.png">
+		</div>
+
+		<!-- The content of the Newsletter --> 
+		<h2>Learning how to create Electronic Newsletters</h2>
+
+		<p>Hello everyone,</p>
+		
+		<p>I am the Organizational, Development and Communications intern for the United Nations Association of Tanzania. I began my postion here on August 6th 2019, and it has been 6 months already.</p>
+
+		<p>Spending this much time in the organization, I noticed that not many people read our pdf newsletter versions. To solve this problem, I thought about converting the newsletter versions from pdf to electronic mail.</p>
+
+		<p> However, there was a problem - electronic mail uses html, and I did not know how to make one from scratch. Seeing this, I had to learn how to make this electronic mail from scratch by watching multiple youtube videos.</p>
+
+		<p>This is my very first attempt at this, so I hope those who would like to learn how to do this for the first time can benefit a lot from this version.</p>
+
+		<!-- This section is for the learn more button -->
+		<div class="button-holder">
+
+			<!-- I linked this button to the UN history page -->
+	 		<a class="btn" href="https://www.un.org/en/sections/history/history-united-nations/index.html">Learn more</a>
+		</div>
+
+	<!-- This is a line that separates the content from the address section -->
+	<div class="line"></div>
+	<p class="contact">Adelaide<br>
+		(+255 759 175 xxx)<br>
+		Kimara Corner, Morogoro Road<br>
+		Dar-es-Salaam, Tanzania<br>
+		aisabellam@gmail.com
+	</p>
+	</div>
+</body>
+</html>
